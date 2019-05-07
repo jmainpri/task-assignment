@@ -50,12 +50,9 @@ v_max = nb_preferences + 1.
 v_min = 1.
 alpha = (v_max - v_min) / nb_preferences
 
-
 # Convention is
 # - w[0, N] -> user one
 # - w[1, N] -> user two
-# in the vector form this matrix will be converted
-# to a row major format [row_0, row_1, ..., row_N]
 w = v_max * np.ones((N, N))
 for i, p_u in enumerate(preferences):
     w_k = 0.
