@@ -1,6 +1,6 @@
 # task-assignment
 
-This code solves linear sum assignment problem, also known as minimum weight matching in bipartite graphs
+This code solves the linear sum assignment problem, also known as minimum weight matching in bipartite graphs
 
 See the assignment problem:
 [Wikipedia](https://en.wikipedia.org/wiki/Assignment_problem)
